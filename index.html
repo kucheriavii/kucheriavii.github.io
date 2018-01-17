@@ -8,12 +8,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="libs/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="libs/slick-1.8.0/slick/slick.css">
+        <link rel="stylesheet" href="libs/slick-1.8.0/slick/slick-theme.css">
+        <link rel="stylesheet" href="libs/magnigic-popup/magnific-popup.css">
+        <link rel="stylesheet" href="libs/UI/jquery-ui.min.css">
         <link rel="stylesheet" href="css/main.css">
 
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
 
         <div class="wrapper">
+            <!--Шапка сайта-->
             <header class="header">
                 <div class="container">
                     <div class="row">
@@ -77,130 +86,140 @@
                     </div>
                 </div>
             </header>
-            <!--catalog section-->
+            <!--/Шапка сайта-->
+
+            <!--Каталог (фейд меню) в index.html не используеться (предусмотрен с целбю дальнейшего внедрения)-->
             <section class="catalog-section">
                 <div class="wrap">
+                    <!--Шапка с кнопкой для меню каталога-->
                     <div class="contact__header">
                         <h3>Каталог товаров</h3>
                         <i class="catalog-section-close"></i>
                     </div>
+                    <!--Список елементов каталога-->
                     <ul class="catalog-list">
                         <li class="catalog-item">
                             <a href="#" class="catalog-link">Крепления для телевизора</a>
                             <ul class="catalog-subcategory">
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">17-29 дюймов и мониторов</a>
+                                    <a href="#" class="catalog-subcategory-link">17-29 дюймов и мониторов</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">30-40 дюймов</a>
+                                    <a href="#" class="catalog-subcategory-link">30-40 дюймов</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">42 дюйма и больше</a>
+                                    <a href="#" class="catalog-subcategory-link">42 дюйма и больше</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">Потолочные крепления </a>
+                                    <a href="#" class="catalog-subcategory-link">Потолочные крепления</a>
                                 </li>
                             </ul>
                         </li>
+
                         <li class="catalog-item">
                             <a href="#" class="catalog-link">Т2 цифровое телевидение</a>
                             <ul class="catalog-subcategory">
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">17-29 дюймов и мониторов</a>
+                                    <a href="#" class="catalog-subcategory-link">17-29 дюймов и мониторов</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">30-40 дюймов</a>
+                                    <a href="#" class="catalog-subcategory-link">30-40 дюймов</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">42 дюйма и больше</a>
+                                    <a href="#" class="catalog-subcategory-link">42 дюйма и больше</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">Потолочные крепления </a>
+                                    <a href="#" class="catalog-subcategory-link">Потолочные крепления </a>
                                 </li>
                             </ul>
                         </li>
+
                         <li class="catalog-item">
                             <a href="#" class="catalog-link">Полки под телевизор</a>
                             <ul class="catalog-subcategory">
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">17-29 дюймов и мониторов</a>
+                                    <a href="#" class="catalog-subcategory-link">17-29 дюймов и мониторов</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">30-40 дюймов</a>
+                                    <a href="#" class="catalog-subcategory-link">30-40 дюймов</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">42 дюйма и больше</a>
+                                    <a href="#" class="catalog-subcategory-link">42 дюйма и больше</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">Потолочные крепления </a>
+                                    <a href="#" class="catalog-subcategory-link">Потолочные крепления </a>
                                 </li>
                             </ul>
                         </li>
+
                         <li class="catalog-item">
                             <a href="#" class="catalog-link">Крепления для проекторов</a>
                             <ul class="catalog-subcategory">
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">17-29 дюймов и мониторов</a>
+                                    <a href="#" class="catalog-subcategory-link">17-29 дюймов и мониторов</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">30-40 дюймов</a>
+                                    <a href="#" class="catalog-subcategory-link">30-40 дюймов</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">42 дюйма и больше</a>
+                                    <a href="#" class="catalog-subcategory-link">42 дюйма и больше</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">Потолочные крепления </a>
+                                    <a href="#" class="catalog-subcategory-link">Потолочные крепления </a>
                                 </li>
                             </ul>
                         </li>
+
                         <li class="catalog-item">
                             <a href="#" class="catalog-link">Экраны для проекторов</a>
                             <ul class="catalog-subcategory">
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">17-29 дюймов и мониторов</a>
+                                    <a href="#" class="catalog-subcategory-link">17-29 дюймов и мониторов</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">30-40 дюймов</a>
+                                    <a href="#" class="catalog-subcategory-link">30-40 дюймов</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">42 дюйма и больше</a>
+                                    <a href="#" class="catalog-subcategory-link">42 дюйма и больше</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">Потолочные крепления </a>
+                                    <a href="#" class="catalog-subcategory-link">Потолочные крепления </a>
                                 </li>
                             </ul>
                         </li>
+
                         <li class="catalog-item">
                             <a href="#" class="catalog-link">Крепления для колонок</a>
                             <ul class="catalog-subcategory">
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">17-29 дюймов и мониторов</a>
+                                    <a href="#" class="catalog-subcategory-link">17-29 дюймов и мониторов</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">30-40 дюймов</a>
+                                    <a href="#" class="catalog-subcategory-link">30-40 дюймов</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">42 дюйма и больше</a>
+                                    <a href="#" class="catalog-subcategory-link">42 дюйма и больше</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">Потолочные крепления </a>
+                                    <a href="#" class="catalog-subcategory-link">Потолочные крепления </a>
                                 </li>
                             </ul>
                         </li>
+
                         <li class="catalog-item">
                             <a href="#" class="catalog-link">Тумбы под телевизор</a>
                             <ul class="catalog-subcategory">
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">17-29 дюймов и мониторов</a>
+                                    <a href="#" class="catalog-subcategory-link">17-29 дюймов и мониторов</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">30-40 дюймов</a>
+                                    <a href="#" class="catalog-subcategory-link">30-40 дюймов</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">42 дюйма и больше</a>
+                                    <a href="#" class="catalog-subcategory-link">42 дюйма и больше</a>
                                 </li>
                                 <li class="catalog-subcategory-item">
-                                    <a href="#"class="catalog-subcategory-link">Потолочные крепления </a>
+                                    <a href="#" class="catalog-subcategory-link">Потолочные крепления </a>
                                 </li>
                             </ul>
                         </li>
@@ -208,8 +227,8 @@
 
                 </div>
             </section>
-
-            <!--Basked section-->
+            <!--/Каталог (фейд меню)-->
+            <!--Корзина (фейд меню)-->
             <section class="basked-section">
                 <div class="wrap">
                     <div class="contact__header">
@@ -221,14 +240,14 @@
                     </div>
                     <ul class="basked-list clearfix">
                         <li class="basked-item">
-                            <a href="#" class="basked-item-link">Logan Galaxy 4
+                            <span class="basked-item-link">Logan Galaxy 4
                                 <button class="removePositionBskd">Удалить</button>
-                            </a>
+                            </span>
                             <div class="form-wrap">
                                 <form action="#">
                                     <button style="display:none"></button>
                                     <button class="removeItemBskd"></button>
-                                    <input type="text" class="basked-items-amount" value="1">
+                                    <input type="text" class="basked-items-amount" value="1" title="">
                                     <button class="addItemBskd"></button>
                                 </form>
                             </div>
@@ -240,14 +259,14 @@
                             </div>
                         </li>
                         <li class="basked-item">
-                            <a href="#" class="basked-item-link">Logan Galaxy 4
+                            <span class="basked-item-link">Logan Galaxy 4
                                 <button class="removePositionBskd">Удалить</button>
-                            </a>
+                            </span>
                             <div class="form-wrap">
                                 <form action="#">
                                     <button style="display:none"></button>
                                     <button class="removeItemBskd"></button>
-                                    <input type="text" class="basked-items-amount" value="1">
+                                    <input type="text" class="basked-items-amount" value="1" title="">
                                     <button class="addItemBskd"></button>
                                 </form>
                             </div>
@@ -277,13 +296,16 @@
                     </div>
                 </div>
             </section>
-            <!--Contacts -->
+            <!--/Корзина-->
+            <!--Контакты (фейд меню; присутствует только на index.html) -->
             <section class="contacts">
                 <div class="wrap">
+
                     <div class="contact__header">
                         <h3>Контакты</h3>
                         <i class="contacts-close"></i>
                     </div>
+
                     <div class="address">
                         <span class="contacts-icon">
                             <img src="img/place-contacts.png" alt="place">
@@ -294,7 +316,7 @@
                             Днепропетровская область, 49000
                             ул. Авиационная, 39
                         </span>
-                        <a href="#" class="button-full">
+                        <a href="#" class="button-full show-map">
                             Показать на карте
                         </a>
                     </div>
@@ -351,14 +373,15 @@
 
                 </div>
             </section>
-
-            <!--DELIVERY-->
+            <!--Доставка (фейд меню; присутствует только на index.html)-->
             <section class="delivery-section">
                 <div class="wrap">
+
                     <div class="contact__header">
                         <h3>Доставка и оплата</h3>
                         <i class="delivery-close"></i>
                     </div>
+
                     <div class="ukrainian-delivery">
                         <span class="contacts-icon">
                             <img src="img/money-delivery.png" alt="place">
@@ -408,16 +431,16 @@
                         </div>
                     </div>
 
-
-
                 </div>
             </section>
-
+            <!--/Доставка-->
+            <!--Второй ряд меню (отличаеться в index.html)-->
             <div class="search_row">
                 <div class="container">
                     <div class="row">
+
                         <div class="search col-xs-8">
-                            <form action="test.php">
+                            <form action="#">
                                 <span class="searchtool"></span>
                                 <input type="text" class="search-input" placeholder="Поиск товара">
                             </form>
@@ -428,15 +451,17 @@
                                 <span class="how-many">3</span>
                             </span>
                         </a>
-                        <a href="#" class="likes header-icon col-xs-2 active">
+
+                        <a href="#" class="likes header-icon col-xs-2">
                             <div class="bucket-icon">
                                 <span class="how-many">10</span>
                             </div>
                         </a>
+
                     </div>
                 </div>
             </div>
-
+            <!--Слайдер-->
             <div class="slider">
                 <div class="container">
                     <div class="row">
@@ -447,14 +472,16 @@
                     </div>
                 </div>
             </div>
-
+            <!--Секция основного контента-->
             <section class="content-box">
                 <div class="container">
                     <div class="row">
                         <h2 class="header">Категории товаров:</h2>
                     </div>
+
                     <div class="row">
                         <div class="item-container clearfix">
+                            <!--Перечень елементов-->
                             <div class="item col-xs-6 col-sm-3">
                                 <a href="item.html" class="item-box">
                                     <h3>Крепления для телевизора <span class="how_many">556</span></h3>
@@ -463,6 +490,7 @@
                                     </div>
                                 </a>
                             </div>
+
                             <div class="item col-xs-6 col-sm-3">
                                 <a href="item.html" class="item-box">
                                     <h3>Т2 цифровое телевидение<span class="how_many">93</span></h3>
@@ -471,6 +499,7 @@
                                     </div>
                                 </a>
                             </div>
+
                             <div class="item col-xs-6 col-sm-3">
                                 <a href="item.html" class="item-box">
                                     <h3>Полки под телевизор<span class="how_many">22</span></h3>
@@ -479,6 +508,7 @@
                                     </div>
                                 </a>
                             </div>
+
                             <div class="item col-xs-6 col-sm-3">
                                 <a href="item.html" class="item-box">
                                     <h3>Крепления для проекторов<span class="how_many">41</span></h3>
@@ -487,14 +517,17 @@
                                     </div>
                                 </a>
                             </div>
+                            <!--/Перечень елементов-->
                         </div>
                      </div>
                 </div>
             </section>
-
+            <!--/Секция основного контента-->
+            <!--Кнопки доставки и контактов-->
             <div class="delivery">
                 <div class="container">
                     <div class="row">
+
                         <div class="col-xs-6 delivery-box">
                             <a class="del-money" href="#">
                                 <div class="outer">
@@ -502,6 +535,7 @@
                                 </div>
                             </a>
                         </div>
+
                         <div class="col-xs-6 contact-box">
                             <a class="del-phone" href="#">
                                 <div class="outer">
@@ -509,9 +543,12 @@
                                 </div>
                             </a>
                         </div>
+
                     </div>
                 </div>
             </div>
+            <!--/Кнопки доставки и контактов-->
+            <!--Подвал-->
             <footer>
                 <div class="container">
                     <div class="row">
@@ -526,6 +563,7 @@
                     </div>
                 </div>
             </footer>
+            <!--/Подвал-->
         </div>
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="libs/slick-1.8.0/slick/slick.min.js"></script>
